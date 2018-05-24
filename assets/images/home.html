@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Tikdata AdminPanel Development :: Admin Panel :: Home</title>
+    <!-- CSS style files -->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="./menu.css" type="text/css" rel="stylesheet">
+
+    <!-- JavaScript files -->
+    <script type="text/javascript" src="./functions.js.download"></script>
+    <script type="text/javascript" src="./jquery.js.download"></script>
+	<script type="text/javascript">
+		//------------------------------------------------------------------------------
+		function toggleCategoryPane(el){
+			if(jQuery("#categoryPane"+el).is(":hidden")){
+				jQuery("#categoryPane"+el).show("fast");
+			}else{
+				jQuery("#categoryPane"+el).hide();
+			}			
+			for(var i = 0; i < 5; i++){
+				if(jQuery("#categoryPane"+i).is(":hidden")){
+					setCookie("HomeCategorySection_"+i+"_State","minimized",14);
+				}else{
+					setCookie("HomeCategorySection_"+i+"_State","maximized",14);
+				}
+			}
+		}
+
+		//------------------------------------------------------------------------------
+		function m_over(el){
+			if(el) el.style.borderColor="#ababab";
+			if(el) el.style.backgroundColor="#f1f2f3";
+		}
+		function m_out(el){
+			if(el) el.style.borderColor="#dedede";
+			if(el) el.style.backgroundColor="#ffffff";
+		}
+	</script>
+</head>
+<body style="background:#ffffff; padding:0px 2px; margin:0px;" dir="ltr" marginwidth="0" marginheight="0">
+
+<table id="tblHome" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr valign="top">
+    <td valign="top" align="left">    
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:0px;">
+				<tbody><tr>
+					<td><div class="section_title_left"></div></td>
+					<td width="100%" align="left"><div class="section_title"><div class="section_title_text"><span onclick="toggleCategoryPane(&quot;0&quot;)">General</span></div></div></td>  
+					<td><div class="section_title_right"></div></td>
+				</tr>
+				</tbody></table>
+				<table id="categoryPane0" style="" width="100%" border="0" cellspacing="0" cellpadding="0" class="text">
+				<tbody><tr><td align="left" style="border:0px solid #efefef;padding:0px;"><table align="left" border="0" cellpadding="0" cellspacing="2"><tbody><tr><td width="102px" onclick="javascript:window.location.href=&#39;home.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Dashboard"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php"><img src="./img_4.png" title="Dashboard" width="48px" height="48px" alt="Dashboard"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php" style="font-size:12px;">Dashboard</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;panel_settings.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Panel Settings" style="border-color: rgb(222, 222, 222); background-color: rgb(255, 255, 255);"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/panel_settings.php"><img src="./img_2.png" title="Panel Settings" width="48px" height="48px" alt="Panel Settings"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/panel_settings.php" style="font-size:12px;">Panel Settings</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;menu_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Menu Manager"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/menu_manager.php"><img src="./img_3.png" title="Menu Manager" width="48px" height="48px" alt="Menu Manager"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/menu_manager.php" style="font-size:12px;">Menu Manager</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Modules"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules_manager.php"><img src="./img_15.png" title="Modules" width="48px" height="48px" alt="Modules"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules_manager.php" style="font-size:12px;">Modules</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;countries.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Countries"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/countries.php"><img src="./img_24.png" title="Countries" width="48px" height="48px" alt="Countries"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/countries.php" style="font-size:12px;">Countries</a></nobr></td></tr></tbody></table></td></tr></tbody></table><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:8px;">
+				<tbody><tr>
+					<td><div class="section_title_left"></div></td>
+					<td width="100%" align="left"><div class="section_title"><div class="section_title_text"><span onclick="toggleCategoryPane(&quot;1&quot;)">Pages Manager</span></div></div></td>  
+					<td><div class="section_title_right"></div></td>
+				</tr>
+				</tbody></table>
+				<table id="categoryPane1" style="" width="100%" border="0" cellspacing="0" cellpadding="0" class="text">
+				<tbody><tr><td align="left" style="border:0px solid #efefef;padding:0px;"><table align="left" border="0" cellpadding="0" cellspacing="2"><tbody><tr><td width="102px" onclick="javascript:window.location.href=&#39;static_pages_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Static Pages"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages_manager.php"><img src="./img_8.png" title="Static Pages" width="48px" height="48px" alt="Static Pages"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages_manager.php" style="font-size:12px;">Static Pages</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;dynamic_pages_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Dynamic Pages"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/dynamic_pages_manager.php"><img src="./img_11.png" title="Dynamic Pages" width="48px" height="48px" alt="Dynamic Pages"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/dynamic_pages_manager.php" style="font-size:12px;">Dynamic Pages</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;datagrid_pages_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="DataGrid Pages" style="border-color: rgb(222, 222, 222); background-color: rgb(255, 255, 255);"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/datagrid_pages_manager.php"><img src="./img_10.png" title="DataGrid Pages" width="48px" height="48px" alt="DataGrid Pages"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/datagrid_pages_manager.php" style="font-size:12px;">Datagrid Pages</a></nobr></td></tr></tbody></table></td></tr></tbody></table><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:8px;">
+				<tbody><tr>
+					<td><div class="section_title_left"></div></td>
+					<td width="100%" align="left"><div class="section_title"><div class="section_title_text"><span onclick="toggleCategoryPane(&quot;2&quot;)">Accounts Manager</span></div></div></td>  
+					<td><div class="section_title_right"></div></td>
+				</tr>
+				</tbody></table>
+				<table id="categoryPane2" style="" width="100%" border="0" cellspacing="0" cellpadding="0" class="text">
+				<tbody><tr><td align="left" style="border:0px solid #efefef;padding:0px;"><table align="left" border="0" cellpadding="0" cellspacing="2"><tbody><tr><td width="102px" onclick="javascript:window.location.href=&#39;admin_edit_account.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="My Account"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/admin_edit_account.php"><img src="./img_23.png" title="My Account" width="48px" height="48px" alt="My Account"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/admin_edit_account.php" style="font-size:12px;">My Account</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;admins.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Admins"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/admins.php"><img src="./img_9.png" title="Admins" width="48px" height="48px" alt="Admins"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/admins.php" style="font-size:12px;">Admins</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_users.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Users" style="border-color: rgb(222, 222, 222); background-color: rgb(255, 255, 255);"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_users.php"><img src="./mod_users_thumb.png" title="Users" width="48px" height="48px" alt="Users"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_users.php" style="font-size:12px;">Users</a></nobr></td></tr></tbody></table></td></tr></tbody></table><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:8px;">
+				<tbody><tr>
+					<td><div class="section_title_left"></div></td>
+					<td width="100%" align="left"><div class="section_title"><div class="section_title_text"><span onclick="toggleCategoryPane(&quot;3&quot;)">Admin Tools</span></div></div></td>  
+					<td><div class="section_title_right"></div></td>
+				</tr>
+				</tbody></table>
+				<table id="categoryPane3" style="" width="100%" border="0" cellspacing="0" cellpadding="0" class="text">
+				<tbody><tr><td align="left" style="border:0px solid #efefef;padding:0px;"><table align="left" border="0" cellpadding="0" cellspacing="2"><tbody><tr><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_backup.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Backup"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_backup.php"><img src="./mod_backup_thumb.png" title="Backup" width="48px" height="48px" alt="Backup"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_backup.php" style="font-size:12px;">Backup</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_mass_mail.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Mass Mail"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_mass_mail.php"><img src="./mod_mass_mail_thumb.png" title="Mass Mail" width="48px" height="48px" alt="Mass Mail"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_mass_mail.php" style="font-size:12px;">Mass Mail</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_news_events_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="News and Events"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_news_events_manager.php"><img src="./mod_news_thumb.png" title="News and Events" width="48px" height="48px" alt="News and Events"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_news_events_manager.php" style="font-size:12px;">News &amp; Events</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;mail_templates_manager.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Mail Templates"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/mail_templates_manager.php"><img src="./email_templates.png" title="Mail Templates" width="48px" height="48px" alt="Mail Templates"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/mail_templates_manager.php" style="font-size:12px;">Mail Templates</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_gallery.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Gallery"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_gallery.php"><img src="./mod_gallery_thumb.png" title="Gallery" width="48px" height="48px" alt="Gallery"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_gallery.php" style="font-size:12px;">Gallery</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_calendar.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Calendar"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_calendar.php"><img src="./mod_calendar_thumb.png" title="Calendar" width="48px" height="48px" alt="Calendar"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_calendar.php" style="font-size:12px;">Calendar</a></nobr></td></tr><tr><td width="102px" onclick="javascript:window.location.href=&#39;modules/mod_statistics.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Statistics"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_statistics.php"><img src="./mod_statistics_thumb.png" title="Statistics" width="48px" height="48px" alt="Statistics"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/modules/mod_statistics.php" style="font-size:12px;">Statistics</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;system_logs.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="System Log"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/system_logs.php"><img src="./system_logs.png" title="System Log" width="48px" height="48px" alt="System Log"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/system_logs.php" style="font-size:12px;">System Log</a></nobr></td></tr></tbody></table></td></tr></tbody></table><table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:8px;">
+				<tbody><tr>
+					<td><div class="section_title_left"></div></td>
+					<td width="100%" align="left"><div class="section_title"><div class="section_title_text"><span onclick="toggleCategoryPane(&quot;4&quot;)">Test Pages</span></div></div></td>  
+					<td><div class="section_title_right"></div></td>
+				</tr>
+				</tbody></table>
+				<table id="categoryPane4" style="" width="100%" border="0" cellspacing="0" cellpadding="0" class="text">
+				<tbody><tr><td align="left" style="border:0px solid #efefef;padding:0px;"><table align="left" border="0" cellpadding="0" cellspacing="2"><tbody><tr><td width="102px" onclick="javascript:window.location.href=&#39;static_pages.php?page=7&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Static Page"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages.php?page=7"><img src="./img_7.png" title="Static Page" width="48px" height="48px" alt="Static Page"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages.php?page=7" style="font-size:12px;">Static Page</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;static_pages.php?page=22&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Static Page (public)"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages.php?page=22"><img src="./img_22.png" title="Static Page (public)" width="48px" height="48px" alt="Static Page (public)"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/static_pages.php?page=22" style="font-size:12px;">Static Page (public)</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;../pages/timer.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="Dynamic Page"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/pages/timer.php"><img src="./img_13.png" title="Dynamic Page" width="48px" height="48px" alt="Dynamic Page"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/pages/timer.php" style="font-size:12px;">Dynamic Page</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;../pages/test_datagrid.php&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="DataGrid Page"><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/pages/test_datagrid.php"><img src="./img_19.png" title="DataGrid Page" width="48px" height="48px" alt="DataGrid Page"></a><br><nobr><a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/pages/test_datagrid.php" style="font-size:12px;">DataGrid Page</a></nobr></td><td width="102px" onclick="javascript:window.location.href=&#39;http://www.php.net&#39;" onmouseover="m_over(this)" onmouseout="m_out(this)" class="icon-cell" nowrap="" align="center" valign="top" title="External Page (link)"><a href="http://www.php.net/"><img src="./img_29.png" title="External Page (link)" width="48px" height="48px" alt="External Page (link)"></a><br><nobr><a href="http://www.php.net/" style="font-size:12px;">External Page (link)</a></nobr></td></tr></tbody></table></td></tr></tbody></table>	</td>
+    <td width="2%">&nbsp;</td>    
+    	<td width="35%">
+		
+				
+        <div id="alert-panel">
+			<div class="header">
+				<span class="icon"><img src="./action_required.png" alt="Action Required"></span>
+				<span class="text">Action Required!</span>
+								<span class="close-button"><a style="text-decoration:none;" href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php?act=hide_alert_panel" title="Hide"><img src="./close.png" alt="Close"></a></span>
+							</div>
+			<div class="alerts">
+				<ul><li>File <b>install.php</b> or directory <b>install/</b> still exists. <br>For security reasons please remove them immediately!</li><li>You have to change default site address. Click <a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/panel_settings.php">here</a> to proceed.</li><li>You have to change default email address for site administrator. Click <a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/panel_settings.php">here</a> to proceed.</li><li>You have to change your own default email address. Click <a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/admin_edit_account.php">here</a> to proceed.</li></ul></div>	
+			</div>
+			
+			
+
+				<div id="home-panel">
+			<div class="header">
+				<span class="icon"><img src="./dashboard.png" alt="Dashboard"></span>
+				<span class="text">Welcome to Admin Panel!</span>	
+				<span class="close-button">
+										<a style="text-decoration:none;" href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php?act=hide_home_panel" title="Hide"><img src="./close.png" alt="Close"></a>
+									</span>
+			</div>
+			<div>
+				<table width="100%" align="center" class="home-panel" cellspacing="1" cellpadding="8">
+				<tbody><tr>
+					<td>John Smith</td>
+					<td align="right">
+												<img class="avatar" src="./1_9opf87pfb3.jpg" alt="avatar" style="width:48px;">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left" style="text-align:justify;">                
+							
+						<table align="center" width="100%" border="0" height="100%">
+						<tbody><tr><td colspan="2" align="left"><b>Account Summary:</b></td></tr>
+						<tr>
+							<td align="left">Today</td>
+							<td align="right">Aug 27, 2017</td>
+						</tr>
+						<tr>
+							<td align="left">Last login</td>
+							<td align="right">
+								Aug 27, 2017 7:14 AM					
+							</td>
+						</tr>
+						<tr>
+							<td align="left">Logins count</td>
+							<td align="right">
+								36438					
+							</td>
+						</tr>
+						<tr><td colspan="2" height="9px" nowrap="nowrap"></td></tr>
+						<tr><td colspan="2" align="left"><b>Ranks: (<a href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/panel_settings.php" title="Edit">http://mydomain.com</a>)</b> <a href="http://mydomain.com/" title="Open in new window" target="_new"><img src="./external_link.gif" style="margin-top:-3px;" alt="Link"></a></td></tr>
+						<tr>
+							<td>Alexa: 0</td>
+							<td align="right"><a style="text-decoration:none;" href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/home.php?act=update_rank">[Update]</a></td>
+						</tr>
+						<tr>
+							<td>Google PR: 0</td>
+							<td align="right">Last update: </td>
+						</tr>
+						<tr><td colspan="2" height="9px" nowrap="nowrap"></td></tr>
+						<tr><td colspan="2" align="left"><b>Help</b></td></tr>
+						<tr>
+							<td>Version:</td>
+							<td align="right">3.7.0</td>
+						</tr>				
+						<tr>
+							<td>System Info:</td>
+							<td align="right">[Show]</td>
+						</tr>				
+						<tr>
+							<td>Getting Started:</td>
+							<td align="right"><a style="text-decoration:none;" href="<?php echo base_url()?>/php-adminpanel/examples/sample3/system/getting-started.php">[Show]</a></td>
+						</tr>				
+						</tbody></table>
+						
+											</td>
+				</tr>
+				</tbody></table>
+			</div>
+		</div>	
+			
+			
+    </td>
+		
+</tr>
+</tbody></table>
+
+</body></html>

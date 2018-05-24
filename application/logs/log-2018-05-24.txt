@@ -1,0 +1,112 @@
+DEBUG - 2018-05-24 18:58:03 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:03 --> No URI present. Default controller set.
+DEBUG - 2018-05-24 18:58:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-05-24 18:58:04 --> Total execution time: 1.3021
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Fonts/Linearicons-Free-v1.0.0
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Fonts/font-awesome-4.7.0
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/css-hamburgers
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/animate
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/animsition
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Css/util.css
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/daterangepicker
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Css/main.css
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/jquery
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/animsition
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/select2
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/daterangepicker
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Js/main.js
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/daterangepicker
+ERROR - 2018-05-24 18:58:04 --> 404 Page Not Found: Vendor/countdowntime
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/select2
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/animsition
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Images/bg-01.jpg
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/select2
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/daterangepicker
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/daterangepicker
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Vendor/countdowntime
+DEBUG - 2018-05-24 18:58:05 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:05 --> 404 Page Not Found: Js/main.js
+DEBUG - 2018-05-24 18:58:06 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-05-24 18:58:09 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:09 --> No URI present. Default controller set.
+DEBUG - 2018-05-24 18:58:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-05-24 18:58:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-05-24 18:58:09 --> Total execution time: 0.0800
+DEBUG - 2018-05-24 18:58:09 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:09 --> 404 Page Not Found: Vendor/bootstrap
+DEBUG - 2018-05-24 18:58:09 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:09 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:09 --> 404 Page Not Found: Fonts/font-awesome-4.7.0
+DEBUG - 2018-05-24 18:58:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:09 --> 404 Page Not Found: Vendor/animsition
+DEBUG - 2018-05-24 18:58:09 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:09 --> 404 Page Not Found: Vendor/animate
+DEBUG - 2018-05-24 18:58:10 --> UTF-8 Support Enabled
+DEBUG - 2018-05-24 18:58:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-05-24 18:58:10 --> 404 Page Not Found: Images/icons

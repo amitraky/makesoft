@@ -1,0 +1,12 @@
+[10-Dec-2017 09:39:10 UTC] PHP Warning:  include(/home/tikdata/public_html/Bank/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/tikdata/public_html/Bank/system/core/Exceptions.php on line 268
+[10-Dec-2017 09:39:10 UTC] PHP Warning:  include(): Failed opening '/home/tikdata/public_html/Bank/application//errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/tikdata/public_html/Bank/system/core/Exceptions.php on line 268
+[10-Dec-2017 09:39:10 UTC] PHP Warning:  include(/home/tikdata/public_html/Bank/application//errors/html/error_php.php): failed to open stream: No such file or directory in /home/tikdata/public_html/Bank/system/core/Exceptions.php on line 268
+[10-Dec-2017 09:39:10 UTC] PHP Warning:  include(): Failed opening '/home/tikdata/public_html/Bank/application//errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/tikdata/public_html/Bank/system/core/Exceptions.php on line 268
+[25-Jan-2018 14:47:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/tikdata/public_html/Bank/db.php on line 7
+[25-Jan-2018 15:27:34 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 36
+[25-Jan-2018 15:27:36 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 36
+[25-Jan-2018 15:28:40 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 35
+[25-Jan-2018 15:28:43 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 35
+[25-Jan-2018 15:29:09 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 35
+[25-Jan-2018 15:29:13 UTC] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING), expecting ';' in /home/tikdata/public_html/Bank/db.php on line 35
+[25-Jan-2018 15:29:29 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/tikdata/public_html/Bank/db.php on line 35
